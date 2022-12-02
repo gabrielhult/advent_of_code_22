@@ -4,10 +4,10 @@ def read_input():
         print(input_data)
     return
 
-def part1():
+def part1(data):
     return
 
-def part2():
+def part2(data):
     return
 
 
