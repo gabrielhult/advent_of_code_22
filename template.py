@@ -2,7 +2,7 @@ def read_input():
     with open("readme", "r") as f:
         input_data = f.read().split("\n")
         print(input_data)
-    return
+    return input_data
 
 def part1(data):
     return
