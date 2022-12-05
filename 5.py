@@ -60,7 +60,7 @@ def part2(data):
         if command[0] == 1:
             filtered_stacks[command[2]-1].append(filtered_stacks[command[1]-1].pop())
         else:
-            multi_operation = filtered_stacks[command[1]-1][len(filtered_stacks[command[1]-1]) - command[0]:]
+            multi_operation = filtered_stacks[command[1]-1][-command[0]:]
             if len(multi_operation) != 0:
                 filtered_stacks[command[2]-1].extend(multi_operation)
                 for i in range(0, command[0]):
