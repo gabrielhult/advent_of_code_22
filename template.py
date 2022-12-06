@@ -11,10 +11,6 @@ def part2(data):
     return
 
 
-
-
-
-
 if __name__ == "__main__":
     data = read_input()
     print(part1(data))
