@@ -3,7 +3,6 @@ import math
 def read_input():
     with open("9.txt", "r") as f:
         input_data = f.read().split("\n")
-        #print(input_data)
     return input_data
 
 def part1(data):
